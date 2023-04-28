@@ -27,8 +27,8 @@ by executing `conda install <package-name>`):
     5. jupyter
     6. pytorch
 
-You can test your setup by running the file `labs/1_AI_gym_intro/code_Stub.py` (either from PyCharm, by opening the file and 
-clicking the run button, or by opening the conda terminal, activating the environment, and executing `labs/1_AI_gym_intro/code_Stub.py`).
+You can test your setup by running the file `labs/1_AI_gym_intro/code_stub.py` (either from PyCharm, by opening the file and 
+clicking the run button, or by opening the conda terminal, activating the environment, and executing `labs/1_AI_gym_intro/code_stub.py`).
 
 ## Structure
 
