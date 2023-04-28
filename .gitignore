@@ -129,9 +129,4 @@ dmypy.json
 .pyre/
 
 # PyCharm-internal files
-/.idea/.gitignore
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/inspectionProfiles/profiles_settings.xml
-/.idea/ReinforcementLearning_template.iml
-/.idea/vcs.xml
+/.idea/
