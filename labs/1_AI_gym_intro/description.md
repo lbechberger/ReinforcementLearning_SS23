@@ -4,11 +4,12 @@ In this first lab we play around with the [FrozenLake environment](https://www.g
 Take a look at the file `code_stub.py` to have a starting point for the following tasks:
 
 ### Task 1:
-- Run episodes using a random policy until the agent reaches the goal (reward > 0).
+- Write a helper function `def play_episode(env, policy=None)` to play an entire episode in the environment `env`, using the given `policy` (if `policy` is `None`, use a random policy -- in that case, `rand_int` is your friend).
+- Run episodes using a random policy until the agent reaches the goal (total reward for that episode > 0).
 - Print how many runs it took to create a successful episode.
 - Remember the states and actions that were taken in this episode. How many actions did it take to reach the goal?
-- Given these results, write an algorithm that generates a policy that reaches the goal faster.
-- Run one episode using this new policy and compare the results.
+- Given these results, write an algorithm that generates a minimal policy, which reaches the goal faster.
+- Run one episode using this new policy and compare the results: was it successful? how many steps did it take?
 
 ### Task 2:
 - Increase the map size using the 8x8 env:
