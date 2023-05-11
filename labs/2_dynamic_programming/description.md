@@ -4,7 +4,7 @@ In this second lab we implement the `policy iteration algorithm` that we saw in 
 
 ### Task:
 - Use the file `code_stub.py` as a starting point to implement your solution.
-- Implement the `policy iteration algorithm`, which we discussed in the lecture, for finding the best policy. Use a discount factor of 1.
+- Implement the `policy iteration algorithm`, which we discussed in the lecture, for finding the best policy. Use a discount factor of 1 and a convergence threshold of 0.001.
 - Hint: You can access the transition probability matrix of the environment with `env.env.P` , all states with `env.env.observation_space.n` and all actions with `env.env.action_space.n`. 
 
 The following code shows how you can work with `env.env.P`:
