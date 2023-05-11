@@ -3,9 +3,9 @@
 In this second lab we implement the `policy iteration algorithm` that we saw in the lecture, in order to find the best policy for the `FrozenLake` environment.
 
 ### Task:
-- Use the file `2_FrozenLake_PolicyEval.py` to implement your solution.
-- Implemente the `policy iteration algorithm` that we saw in the lecture to finde the best policy. Use a discount factor of `gamma=1`.
-Hint: You can access the transition probabilty matrix of the environemnt with `env.env.P` , all states with `env.env.nS` and all actions with `env.env.nA`. 
+- Use the file `code_stub.py` as a starting point to implement your solution.
+- Implement the `policy iteration algorithm` that we saw in the lecture to find the best policy. Use a discount factor of `gamma=1`.
+Hint: You can access the transition probability matrix of the environment with `env.env.P` , all states with `env.env.observation_space.n` and all actions with `env.env.action_space.n`. 
 
 The following code shows how you can work with `env.env.P`:
 

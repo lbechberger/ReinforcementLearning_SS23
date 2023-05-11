@@ -1,7 +1,7 @@
 # Lab 1
 
 In this first lab we play around with the [FrozenLake environment](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/) and try to learn a good policy from experience.
-Take a look at the file `1_FrozenLake_Random.py` to have a starting point for the following tasks:
+Take a look at the file `code_stub.py` to have a starting point for the following tasks:
 
 ### Task 1:
 - Run episodes using a random policy until the agent reaches the goal (reward > 0).
