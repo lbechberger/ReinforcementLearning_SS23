@@ -11,11 +11,11 @@ This is repeated for 100 iterations.
 - After every episode, calculate the Q-values with every-visit MC prediction:
     - there is no discount on the reward, i.e. the discount factor gamma is 1.
     - before the first episode, initialize all Q-values to zero.
+    - always use the random policy for updating the Q-values
     - use the incremental mean method to update the Q-values, i.e.:
 ```
 Q(s,a) =  Q(s,a) + 1/N(s,a) *  (G-Q(s,a))
 ```
-    - always use the random policy for updating the Q-values
 - After every successful episode, print out the current Q-values.
 
 ### Task 2:
