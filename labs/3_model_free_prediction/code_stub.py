@@ -16,6 +16,7 @@ action2string = {0: "Left", 1: "Down", 2: "Right", 3: "Up"}
 no_states = env.observation_space.n
 no_actions = env.action_space.n
 
+
 def play_episode():
     state, _ = env.reset()
     done = False
