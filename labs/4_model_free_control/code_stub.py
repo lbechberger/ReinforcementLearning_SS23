@@ -14,11 +14,9 @@ print(env.render())
 
 no_states = env.observation_space.n
 no_actions = env.action_space.n
-q_values = np.zeros((no_states, no_actions))
-q_counter = np.zeros((no_states, no_actions))
 
 
-def play_episode(q_values):
+def play_episode():
 
     state, _ = env.reset()
     done = False
@@ -38,7 +36,7 @@ def main():
     no_episodes = 1000
     rewards = []
     for j in range(0, no_episodes):
-        s, r = play_episode(q_values)
+        s, r = play_episode()
         rewards.append(sum(r))
 
         # TODO: update q-values with MC-prediction
